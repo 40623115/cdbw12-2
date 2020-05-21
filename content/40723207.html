@@ -145,7 +145,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li class='has-children'><a href='40723201.html'>40723201</a><ul class='dropdown'><li><a href='四輪車外型設置.html'>四輪車外型設置</a><li><a href='翻譯Topic 1.html'>翻譯Topic 1</a><li><a href='更新python.html'>更新python</a></li></ul><li><a href='40723206.html'>40723206</a><li><a href='40723222.html'>40723222</a><li class='has-children'><a href='40723244.html'>40723244</a><ul class='dropdown'><li><a href='python382.html'>python382</a><li class='has-children'><a href='assignment.html'>assignment</a><ul class='dropdown'><li><a href='assignment1.html'>assignment1</a><li><a href='assignment2.html'>assignment2</a></li></ul><li><a href='每週開會影片.html'>每週開會影片</a></li></ul><li class='has-children'><a href='40723203.html'>40723203</a><ul class='dropdown'><li><a href='建立Google API+專案.html'>建立Google API+專案</a><li><a href='Vrep虛擬主機板.html'>Vrep虛擬主機板</a><li class='has-children'><a href='Assignment.html'>Assignment</a><ul class='dropdown'><li><a href='Assignment1.html'>Assignment1</a><li><a href='Assignment2.html'>Assignment2</a></li></li></ul></ul><li><a href='40723207.html'>40723207</a><li><a href='40723250.html'>40723250</a><li><a href='40623251.html'>40623251</a></li>
+                     <li><a href='About.html'>About</a><li class='has-children'><a href='40723201.html'>40723201</a><ul class='dropdown'><li><a href='四輪車外型設置.html'>四輪車外型設置</a><li><a href='翻譯Topic 1.html'>翻譯Topic 1</a><li><a href='更新python.html'>更新python</a></li></ul><li><a href='40723206.html'>40723206</a><li><a href='40723222.html'>40723222</a><li class='has-children'><a href='40723244.html'>40723244</a><ul class='dropdown'><li><a href='python382.html'>python382</a><li class='has-children'><a href='assignment(44).html'>assignment(44)</a><ul class='dropdown'><li><a href='assignment-1.html'>assignment-1</a><li><a href='assignment-2.html'>assignment-2</a></li></ul><li><a href='每週開會影片.html'>每週開會影片</a></li></ul><li class='has-children'><a href='40723203.html'>40723203</a><ul class='dropdown'><li><a href='建立Google API+專案.html'>建立Google API+專案</a><li><a href='Vrep虛擬主機板.html'>Vrep虛擬主機板</a><li class='has-children'><a href='Assignment(3).html'>Assignment(3)</a><ul class='dropdown'><li><a href='Assignment1.html'>Assignment1</a><li><a href='Assignment2.html'>Assignment2</a></li></li></ul></ul><li class='has-children'><a href='40723207.html'>40723207</a><ul class='dropdown'><li><a href='Assignment(7).html'>Assignment(7)</a></li></ul><li><a href='40723250.html'>40723250</a><li><a href='40623251.html'>40623251</a></li>
                       </ul>
                 </nav>
               </div>
@@ -156,8 +156,77 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Assignment2 << <a href='Assignment2.html'>Previous</a> <a href='40723250.html'>Next</a> >> 40723250<br /><h1>40723207</h1>
-<br />Assignment2 << <a href='Assignment2.html'>Previous</a> <a href='40723250.html'>Next</a> >> 40723250</div>
+    <div id="tipue_search_content">Assignment2 << <a href='Assignment2.html'>Previous</a> <a href='Assignment(7).html'>Next</a> >> Assignment(7)<br /><h1>40723207</h1>
+<p>個人倉儲:<a href="https://github.com/s40723207/cd2020">https://github.com/s40723207/cd2020</a></p>
+<p><span>個人網站:<a href="https://s40723207.github.io/cd2020/content/index.html">https://s40723207.github.io/cd2020/content/index.html</a></span></p>
+<p>更新Python3.7.3至3.8.2</p>
+<p>建立cd2020的資料夾，裡面建立data資料夾。</p>
+<p>下載Python3.8.2並安裝，安裝中記得要取消pip的安裝。</p>
+<p>下載<span>SciTE、MSYS2、PortableGit、 git-pip.py，除了git-<span>pip.py丟到data，其他安裝。</span></span></p>
+<p><span><span>建立start.bat及stop.bat。</span></span></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Qls5dEDNo_o" width="560"></iframe></p>
+<p><span>製作分組作業</span></p>
+<p><span><a href="https://s40723207.github.io/cd2020/downloads/Assignment%201.pdf">Assignment 1.</a></span></p>
+<p><span>亂數分組:</span></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">from random import shuffle
+list = ["40523253","40623114","40623115","40623117","40623121","40623251","40623252","40723201","40723203","40723204","40723205","40723206","40723207","40723209","40723210","40723212","40723213","40723216","40723218","40723219","40723221","40723222","40723223","40723225","40723226","40723227","40723228","40723229","40723230","40723232","40723233","40723234","40723236","40723237","40723238","40723239","40723240","40723241","40723242","40723243","40723244","40723245","40723246","40723247","40723249","40723250","40732319","40732331","40739214"]
+shuffle(list) #重排序
+x = 4 #分成n组
+y = int(len(list)/x)
+list2 = []
+for i in range(0, len(list), y):
+    list2.append(list[i:i+y])
+print(list2)</pre>
+<p><span>隨機點名:</span></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import random
+list = ["40523253","40623114","40623115","40623117","40623121","40623251","40623252","40723201","40723203","40723204","40723205","40723206","40723207","40723209","40723210","40723212","40723213","40723216","40723218","40723219","40723221","40723222","40723223","40723225","40723226","40723227","40723228","40723229","40723230","40723232","40723233","40723234","40723236","40723237","40723238","40723239","40723240","40723241","40723242","40723243","40723244","40723245","40723246","40723247","40723249","40723250","40732319","40732331","40739214"]
+n = 5 #t. 
+print( random.sample(list,n))</pre>
+<p>第2次分組作業:</p>
+<p>負責<span>翻譯MechanicalDesgnProcess部分</span></p>
+<p><a href="https://s40723207.github.io/cd2020/downloads/MechanicalDesgnProcess.pdf">Assignment 2</a></p>
+<p>在v-rep建立四輪車，並用鍵盤操作：</p>
+<p><span>先建立四輪車的本體，並拉到空中。</span></p>
+<p>再建造一個輪胎，設定<span>尺寸並調整其方向及位置。</span></p>
+<p><span>建立馬達，放到輪胎中心。</span></p>
+<p>複製並放到另外3個輪胎位置。</p>
+<p><span>將四輪車的前輪馬達命名為right_motor及left_motor。</span></p>
+<p><span>將寫好的程式碼放到四輪車內，就可使用了。</span></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/vlf2wSMVTTA" width="560"></iframe></p>
+<p>第8周直播操作:</p>
+<p>利用google meet直播操作。</p>
+<p><a href="https://drive.google.com/open?id=1kWc2PtlzJRqkmHFK_wy-4mOvc5b2fUya">https://drive.google.com/open?id=1kWc2PtlzJRqkmHFK_wy-4mOvc5b2fUya</a></p>
+<p><a href="https://drive.google.com/open?id=1ROmIkXSi4EG-9jMB1EBoiDB4Z-iNFovr">期中報告影片</a></p>
+<p><span>建立google api：</span></p>
+<p><span>clone cd2020pj1<span>倉儲</span></span></p>
+<p><span>進入<span>Google API，</span></span><span><span>建立專案。</span></span></p>
+<p><span><span>輸入專案cd2020pj1建立。</span></span></p>
+<p><span><span>啟用API和服務，選Google+ Domains API。</span></span></p>
+<p><span><span>再選擇內部，</span><span>輸入名稱，設定憑證。</span></span></p>
+<p><span><span>點選建立憑證及OAuth用戶端ID。</span></span></p>
+<p><span><span>建立網路應用程式。</span></span></p>
+<p><span><span>複製ID及密碼，命名為oauth_s學號.txt 存在tmp下。</span></span></p>
+<p><span><span>接著設定來源及URL，</span></span><span><span>接著存儲。</span></span></p>
+<p><span><span>用leo打開cd2020pj1.leo。</span><span>將路徑及名稱改為剛剛存的txt。</span></span></p>
+<p><span><span>完成後存儲，按ROC。</span></span></p>
+<p><span><span>在CMD輸入pip install authomatic。</span><br/><span></span></span></p>
+<p>進入pj1，打開wsgi.py。</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Iymso6iH9fA" width="560"></iframe></p>
+<p><span>設定Ubuntu：</span></p>
+<p><span>下載<span>vitualbox、CoppeliaSim、ubuntu、</span><span>四輪車控制器。</span></span></p>
+<p><span><span>開啟vitualbox，匯入ubuntu。</span></span></p>
+<p><span><span>設定虛擬主機的網路埠號。</span></span></p>
+<p><span><span>啟動ubuntu，</span><span>輸入密碼kmol2020。</span></span></p>
+<p><span><span>開啟lxterminal，</span><span>輸入xterm&amp;開啟。</span></span></p>
+<p><span><span>打開coppeliasim，輸入ls。</span></span></p>
+<p><span><span>依序打cd coppeliasim4_rev4　ls　cd CoppeliaSim_Edu_V4_0_0_Ubuntu18_04　ls　./coppeliaSim.sh</span></span></p>
+<p><span><span>打開檔案sdc.ttt。</span></span></p>
+<p><span><span>開啟啟動器，並開啟四輪車控制器</span></span></p>
+<p><span><span>打開car_model.py，並執行。</span></span></p>
+<p><span><span>打開CoppeliaSim中的模擬。</span></span></p>
+<p><span><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/WFwH0_wKOTw" width="560"></iframe></span></span></p>
+<p><span><span><img alt="" src="https://youtu.be/WFwH0_wKOTw"/></span></span></p>
+<br />Assignment2 << <a href='Assignment2.html'>Previous</a> <a href='Assignment(7).html'>Next</a> >> Assignment(7)</div>
         
     <!-- footer -->
       <div class="container">
